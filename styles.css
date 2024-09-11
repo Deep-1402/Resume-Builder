@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans';
+
+} 
+body{
+    /* background-image: url(../../../back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    background-color: #071016;
+
+}
+.container{
+    /* position: absolute; */
+    border: 1px solid rgba(255,255,255,0.18);
+    background-color: rgb(153 216 255 / 30%);
+    /* display: flex; */
+    backdrop-filter: blur(10px);
+    /* position: center; */
+    /* border-radius: 25px; */
+    margin-top: 41px;
+    width: 78%;
+}
+.row{
+
+
+}
+.printcv{
+    border-radius: 5px;
+    padding: 10px; 
+    background-color:  #1b4f72 ; 
+    color: white"
+}
+#resume-template {
+    display: none;
+}
+
+.background {
+    background-color:  #6d798f;
+}
+
+.img-logo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+p {
+    color: white;
+}
+
+.name1, .address1 {
+    font-size: 20px;
+}
+.email1, .phn1 {
+    font-size: 18px;
+}
+.personal {
+    padding-bottom: 10px;
+}
+
+.hr-row {
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+    max-width: fit-content;
+    
+}
+.social-head {
+    color: white;
+    font-weight: bold;
+}
+.social{
+    text-align: left;
+    padding-top: 20px;
+}
